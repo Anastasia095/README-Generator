@@ -1,10 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const genMark = require('./utils/generateMarkdown');
-
-console.log(genMark.method1);
 const fs = require("fs");
-// TODO: Create an array of questions for user input
+
 const questions = [
     {
         type: 'input',
@@ -34,13 +32,13 @@ const questions = [
       {
         type: 'input',
         name: 'github',
-        message: 'Enter your GitHub link',
+        message: 'Enter your GitHub username',
       },
       {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'What licenses would you like to include?',
-        choices: ['MIT','ISC','GPL-3.0','MPL-2.0','Apache-2.0','BSL-1.0', ],
+        choices: ['MIT','ISC','GPL-3.0','MPL-2.0','Apache-2.0','BSL-1.0', 'No License'],
       },
       {
         type: 'input',
@@ -50,14 +48,12 @@ const questions = [
       {
         type: 'input',
         name: 'fullName',
-        message: 'Enter your full name',
+        message: 'Enter your full name (Skip if not using license)',
       },
       
 
 ];
 
-
-// TODO: Create a function to initialize app
 function init() {
   return inquirer.prompt(questions)
     .then((data) => {
@@ -71,5 +67,4 @@ function init() {
     })
 }
 
-// Function call to initialize app
 init();
