@@ -13,7 +13,7 @@ This program will create a readme file based on user input.
 
   ## Installation
   #1 copy this repository to your machine #2 install node.js #3 run npm install to install all required dependencies  #3 launch app by running "node index.js" command  #4 follow the prompts in the terminal
-  ![video](utilsideo.gif)
+  ![video](utils/video.gif)
   ## Usage
   This project will make the process of creating README file fast and easy. You can quickly generate tamplate using this app.
 

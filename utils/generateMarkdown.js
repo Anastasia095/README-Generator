@@ -40,7 +40,6 @@ ${data.description}
 
   ## Installation
   ${data.installation}
-  ![video](utils\video.gif)
   ## Usage
   ${data.usage}
 
