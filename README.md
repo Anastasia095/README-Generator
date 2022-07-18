@@ -34,7 +34,7 @@ This program will create a readme file based on user input.
 
   
   ## License GPL-3.0
-  This project is covered under GPL-3.0license;
+  This project is covered under GPL-3.0 license;
 
    
   
