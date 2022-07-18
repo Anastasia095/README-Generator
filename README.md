@@ -1,9 +1,9 @@
 
 
-# Professional Readme Generator  [![badge](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=green)](https://choosealicense.com/licenses/gpl-3.0/)
+# Professioanl Readme Generator  [![badge](https://img.shields.io/static/v1?label=license&message=GPL-3.0&color=green)](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Description
-This program will generate readme file based on user input.
+This program will create a readme file based on user input.
 
   ## Table of Content
   - [Installation](#installation)
@@ -12,22 +12,20 @@ This program will generate readme file based on user input.
   - [License](#license)
 
   ## Installation
-  1. Clone this repository to your machine 2. install node.js (you can find installation link below) 3. install inquirer package  
-
-  ![video](utils\video.gif)
-
+  #1 copy this repository to your machine #2 install node.js #3 run npm install to install all required dependencies  #3 launch app by running "node index.js" command  #4 follow the prompts in the terminal
+  ![video](utilsideo.gif)
   ## Usage
-  This program will make the process of creating readme fast and easy, you can quickly create template using this programm and manually add content if you wish. 
+  This project will make the process of creating README file fast and easy. You can quickly generate tamplate using this app.
 
   ## Credits
-  Anastasia095
+  Github: Anastasia095
 
   ## Questions
   Should you have any questions you can reach me via Github or Email.  
-  anastas.tarasenko001@mymdc.net  
+  anastasiatarasenko095@gmail.com  
   https://github.com/Anastasia095
 
-  ## How to contribute [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)  
+  ## How to contribute  
   ### Pull requests are welcome.
   If you don't have git on your machine you can install it [here](https://docs.github.com/en/get-started/quickstart/set-up-git).  
   Other tools you will need:
@@ -36,10 +34,7 @@ This program will generate readme file based on user input.
 
   
   ## License GPL-3.0
-
-  > Copyright [2022] [Anastasia Tarasenko]  
-  > Paste the [text](https://choosealicense.com/licenses/gpl-3.0) of the license here
-   
+  This project is covered under GPL-3.0license;
 
    
   

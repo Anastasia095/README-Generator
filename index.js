@@ -45,13 +45,8 @@ const questions = [
         name: 'email',
         message: 'Enter your email',
       },
-      {
-        type: 'input',
-        name: 'fullName',
-        message: 'Enter your full name (Skip if not using license)',
-      },
       
-
+    
 ];
 
 function init() {

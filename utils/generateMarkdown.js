@@ -11,17 +11,15 @@ function renderLicenseBadge(license) {
 }
 
 function renderLicenseSection(data,license) {
+  var licenseInfo;
   if (license == 'No License') {
+    licenseInfo = "This project is covered under any license";
     return " ";
   }
-  var year = new Date().getFullYear();
-  console.log(license);
+  licenseInfo = "This project is covered under " + license + " license";
   return `
   ## License ${data.license}
-
-  > Copyright [${year}] [${data.fullName}]  
-  > Paste the [text](https://choosealicense.com/licenses/${license.toLowerCase()}) of the license here
-   
+  ${licenseInfo};
 `
 }
 
@@ -54,7 +52,7 @@ ${data.description}
   ${data.email}  
   ${"https://github.com/" + data.github}
 
-  ## How to contribute [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)  
+  ## How to contribute  
   ### Pull requests are welcome.
   If you don't have git on your machine you can install it [here](https://docs.github.com/en/get-started/quickstart/set-up-git).  
   Other tools you will need:
