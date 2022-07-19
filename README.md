@@ -33,7 +33,8 @@ This program will create a readme file based on user input.
   [inquirer package for node.js](https://www.npmjs.com/package/inquirer/v/8.2.4#questions)
 
   
-  ## License GPL-3.0
+  ## License 
+  GPL-3.0
   This project is covered under GPL-3.0 license;
 
    
